@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Porsche Dashboard</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image:url(https://www.supercars.net/blog/wp-content/uploads/2020/07/1707753.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .container {
+      margin-top: 50px;
+      font-family:Arial, Helvetica, sans-serif ;
+    }
+    .airfont{
+      text-align: center;
+      font-family: monospace;
+      font-weight: bold;
+      font-size: 100px;
+      color: rgba(42, 42, 223, 0.98);
+      @font-face {
+  font-family: 'Porsche';
+  src: url("https://www.onlinewebfonts.com/icon") format('woff2'),
+       url("https://www.onlinewebfonts.com/icon") format('woff');
+}
+    }
+    .card {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop" style="background-color: rgba(240, 248, 255, 0);"  >
+  Porsche Menu
+</button>
+
+<div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel" style="background-image: url(https://w.forfun.com/fetch/9b/9b792b165bed045197e8fc2833a73e1d.jpeg)">
+  <div class="offcanvas-header">  
+    <h5 class="offcanvas-title" id="staticBackdropLabel">Welcome to Porsche</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+
+  <div class="offcanvas-body">
+    <div>
+      SEE AVAILABLE MODELS
+      <br>
+      VEHICLE PURCHASE
+      <br>
+      SERVICES
+      <br>
+      FIND A DEALERSHIP
+      <br>    </div>
+  </div>
+</div>
+  <div class="container">
+    <div class="airfont" >Porsche Dashboard </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card" style="background-color:  rgb(255, 255, 255);">
+          <div class="card-body" >
+            <h5 class="card-title">Delivery Schedule</h5>
+            <p class="card-text">View and manage delivery schedules</p>
+            <a href="schedule1.html" class="btn btn-primary">Go to Schedule</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" style="background-color: rgb(255, 255, 255);">
+          <div class="card-body">
+            <h5 class="card-title">Model List</h5>
+            <p class="card-text">View and browse all the available models.</p>
+            <a href="model.html" class="btn btn-primary">View Models</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" style="background-color: rgb(255, 255, 255);">
+          <div class="card-body">
+            <h5 class="card-title">Services</h5>
+            <p class="card-text">Check the available services.</p>
+            <a href="#" class="btn btn-primary">SERVICES</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" style="background-color: rgb(255, 255, 255);">
+          <div class="card-body">
+            <h5 class="card-title">Sales Report</h5>
+            <p class="card-text">Check the quarterly sales report.</p>
+            <a href="sales.html" class="btn btn-primary">REPORT</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" style="background-color: rgb(255, 255, 255);">
+          <div class="card-body">
+            <h5 class="card-title">Customer Feedback</h5>
+            <p class="card-text">Check the customer feedback.</p>
+            <a href="feedback.html" class="btn btn-primary">FEEDBACK</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS and dependencies (jQuery, Popper.js) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

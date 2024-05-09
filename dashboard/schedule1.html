@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery Schedule</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 80%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+        }
+        th, td {
+            padding: 12px;
+            text-align: center;
+        }
+        th {
+            background-color: #c51a1a;
+            color: white;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Delivery Status</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Customer Name</th>
+                <th>Payment Status</th>
+                <th>Delivery Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Customer 1</td>
+                <td>Successful</td>
+                <td>Delivered</td>
+            </tr>
+            <tr>
+              <td>Customer 2</td>
+              <td>Half Paid</td>
+              <td>Pending</td>
+          </tr>
+          <tr>
+            <td>Customer 3</td>
+            <td>Paid</td>
+            <td>Pending</td>
+        </tr>
+        <tr>
+          <td>Customer 4</td>
+          <td>Paid</td>
+          <td>On route</td>
+      </tr>
+        </tbody>
+    </table>
+</body>
+</html>
